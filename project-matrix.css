@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header {
+  overflow: hidden;
+  padding: 10px 100px;
+  border-bottom: 1px dotted rgba(192, 192, 192, 0.64);
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 115px;
+}
+
+.contact-details {
+  float: right;
+}
+
+.contact li span {
+  padding-left: 10px;
+}
+
+.page-content {
+  text-align: center;
+  font-family: Myriad Pro;
+}
+
+.first-line {
+  font-size: 28px;
+  padding: 20px 0px;
+  color: #9abf07;
+}
+
+.second-line {
+  font-size: 21px;
+  padding: 0px 120px 10px 120px
+}
+.body-wrapper{
+	background: url(images/matrix/bg.jpg);
+	height: 411px;
+	position: relative;
+}
+.wrapper-details {
+	/*position: absolute;
+	top: 50px;
+	left: 90px;
+	*/
+}
+
+.page-info{
+	font-size: 20px;
+	padding: 50px 0px 0px 90px;
+}
+
+.common{
+	padding: 9px;
+    background: url(images/matrix/tick.jpg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0px 7px;
+    padding-left: 28px;
+}
+.content-box{
+	
+	    background: #9abf07;
+    text-align: center;
+    padding: 37px 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 54px;
+    right: 105px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.client-details input{
+	display: block;
+	padding: 15px;
+	margin: 15px;
+	width: 350px;
+}
+
+.text-type{
+	margin-bottom: 20px;
+}
+.content-box a{
+background: #249f68;
+    padding: 10px 111px;
+    color: #fff;
+    font-size: 20px;
+}
